@@ -4,6 +4,8 @@
     <strong>Respuestas del cuestionario </strong>
   </a>
 </p>
+
+
 ## Mejoras Aplicada a Base de Datos
 
 Este repositorio contiene la lógica de base de datos optimizada para el manejo de registros académicos y facturación. A continuación, se detallan las estrategias de optimización e integridad implementadas.
