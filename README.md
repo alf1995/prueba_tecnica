@@ -1,11 +1,13 @@
 ## Índice
-- [Descripción General](#-descripción-general)
-- [Mejoras en Base de Datos](#-mejoras-en-base-de-datos)
-  - [Estrategia de Caché](#estrategia-de-caché)
-  - [Normalización e Integridad](#normalización-e-integridad)
-- [Análisis de Consultas (Queries)](#-análisis-de-consultas-queries)
-  - [Optimización de Reportes Históricos](#optimización-de-reportes-históricos)
-- [Documentación Adjunta](#-documentación-adjunta)
+- [Cuestionariol](#cuestionario)
+- [Mejoras en Base de Datos](#mejoras-aplicada-a-base-de-datos)
+  - [Estrategia de Caché](#--estrategia-de-caché)
+  - [Normalización e Integridad](#--normalización-de-datos)
+  - [Integridad Referencial](#--integridad-referencial)
+  - [Optimizaciones en Vistas](#--optimizaciones-en-vistas)
+- [Análisis de Consultas (Queries Hipoteticos)](#queries-hipoteticos)
+  - [Reportes Históricos de Promedios](#reporte-histórico-de-promedios-anuales-de-2023-y-2024)
+  - [Query Mejorado de reporte historico](#query-mejorado-de-reporte-historico)
 
 # Cuestionario
 <p align="left">
