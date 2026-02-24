@@ -1,3 +1,12 @@
+## Índice
+- [Descripción General](#-descripción-general)
+- [Mejoras en Base de Datos](#-mejoras-en-base-de-datos)
+  - [Estrategia de Caché](#estrategia-de-caché)
+  - [Normalización e Integridad](#normalización-e-integridad)
+- [Análisis de Consultas (Queries)](#-análisis-de-consultas-queries)
+  - [Optimización de Reportes Históricos](#optimización-de-reportes-históricos)
+- [Documentación Adjunta](#-documentación-adjunta)
+
 # Cuestionario
 <p align="left">
   <a href="https://github.com/alf1995/prueba_tecnica/blob/fd0e0305eef58edfa256a9c4f51f4b92c7c0ed08/files/Cuestionario.pdf" target="_blank">
