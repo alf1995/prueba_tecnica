@@ -1,3 +1,9 @@
+# Cuestionario
+<p align="center">
+  <a href="https://github.com/alf1995/prueba_tecnica/blob/fd0e0305eef58edfa256a9c4f51f4b92c7c0ed08/files/Cuestionario.pdf" target="_blank">
+    <strong>Respuestas del cuestionario </strong>
+  </a>
+</p>
 # Base de Datos
 
 Este repositorio contiene la lógica de base de datos optimizada para el manejo de registros académicos y facturación. A continuación, se detallan las estrategias de optimización e integridad implementadas.
@@ -21,3 +27,8 @@ Este repositorio contiene la lógica de base de datos optimizada para el manejo 
 ## 4. Optimizaciones en Vistas
 * **Vista `view_document_status`**: Cálculo dinámico de `days_elapsed` mediante `to_days(curdate())`, simplificando la lógica en los procedimientos de facturación.
 * **Vista `view_unidad_promedio`**: Implementa un filtro para registros donde `is_active = 1`, facilitando la **eliminación lógica** y el mantenimiento de históricos sin afectar los cálculos de promedios actuales.
+
+## Proyecto
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alf1995/prueba_tecnica/main/files/dashboard.png" width="600" title="Imagen de Proyecto">
+</p>
