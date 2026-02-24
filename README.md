@@ -30,8 +30,8 @@ Este repositorio contiene la lógica de base de datos optimizada para el manejo 
 * **Vista `view_document_status`**: Cálculo dinámico de `days_elapsed` mediante `to_days(curdate())`, simplificando la lógica en los procedimientos de facturación.
 * **Vista `view_unidad_promedio`**: Implementa un filtro para registros donde `is_active = 1`, facilitando la **eliminación lógica** y el mantenimiento de históricos sin afectar los cálculos de promedios actuales.
 
-# Qeuries Hypoteticos:
-* Reporte histórico de promedios anuales de 2023 y 2024
+# Queries Hipoteticos:
+## Reporte histórico de promedios anuales de 2023 y 2024
 
 ```sql
 SELECT * FROM (
@@ -47,7 +47,7 @@ AND annual_average > (SELECT AVG(annual_average) FROM student_annual_grades);
   <img src="https://raw.githubusercontent.com/alf1995/prueba_tecnica/refs/heads/main/files/explain_original.png" width="600" title="Imagen de Proyecto">
 </p>
 
-* Query Mejorado de reporte historico
+## Query Mejorado de reporte historico
 * Eliminación de UNION ALL
 * Reducción de escaneo completo
 * Cálculo de promedio global una sola vez con el CROSS JOIN
