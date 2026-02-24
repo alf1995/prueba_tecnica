@@ -21,3 +21,8 @@ Este repositorio contiene la lógica de base de datos optimizada para el manejo 
 ## 4. Optimizaciones en Vistas
 * **Vista `view_document_status`**: Cálculo dinámico de `days_elapsed` mediante `to_days(curdate())`, simplificando la lógica en los procedimientos de facturación.
 * **Vista `view_unidad_promedio`**: Implementa un filtro para registros donde `is_active = 1`, facilitando la **eliminación lógica** y el mantenimiento de históricos sin afectar los cálculos de promedios actuales.
+
+## Proyecto
+<p align="center">
+  <img src="[nombre-de-la-imagen.png](https://github.com/alf1995/prueba_tecnica/blob/main/files/dashboard.png)" width="400" title="Imagen de Proyecto">
+</p>
