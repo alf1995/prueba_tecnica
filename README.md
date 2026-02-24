@@ -24,5 +24,5 @@ Este repositorio contiene la lógica de base de datos optimizada para el manejo 
 
 ## Proyecto
 <p align="center">
-  <img src="[nombre-de-la-imagen.png](https://github.com/alf1995/prueba_tecnica/blob/main/files/dashboard.png)" width="400" title="Imagen de Proyecto">
+  <img src="[[nombre-de-la-imagen.png](https://github.com/alf1995/prueba_tecnica/blob/main/files/dashboard.png)](https://raw.githubusercontent.com/alf1995/prueba_tecnica/refs/heads/main/files/dashboard.png)" width="400" title="Imagen de Proyecto">
 </p>
