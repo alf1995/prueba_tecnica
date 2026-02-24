@@ -62,3 +62,5 @@ $route['reportes/libretas'] = 'academia/libretas';
 
 $route['reportes/promedios'] = 'academia/promedios';
 
+$route['estudiante/(:num)/notas'] = 'estudiantes/reporte/$1';
+

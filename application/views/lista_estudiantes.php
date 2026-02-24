@@ -156,6 +156,7 @@
                     <th>Nombre del Estudiante</th>
                     <th>Sección / Clase</th>
                     <th>Aula Asignada</th>
+                    <th>Detalles</th>
                 </tr>
             </thead>
             <tbody>
@@ -169,6 +170,11 @@
                                 <span class="aula-badge">
                                     <?= $e->aula ?>
                                 </span>
+                            </td>
+                            <td>
+                                <a class="btn" href="<?= base_url('estudiante/'.$e->id.'/notas') ?>">
+                                    Detalles Notas
+                                </a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
