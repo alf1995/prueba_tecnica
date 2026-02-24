@@ -1,6 +1,6 @@
 # Cuestionario
 <p align="center">
-  <a href="https://github.com/alf1995/prueba_tecnica/blob/fd0e0305eef58edfa256a9c4f51f4b92c7c0ed08/files/Cuestionario.pdf">
+  <a href="https://github.com/alf1995/prueba_tecnica/blob/fd0e0305eef58edfa256a9c4f51f4b92c7c0ed08/files/Cuestionario.pdf" target="_blank">
     <strong>Respuestas del cuestionario </strong>
   </a>
 </p>
