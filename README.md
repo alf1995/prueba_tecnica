@@ -1,3 +1,9 @@
+# Cuestionario
+<p align="center">
+  <a href="https://github.com/alf1995/prueba_tecnica/blob/fd0e0305eef58edfa256a9c4f51f4b92c7c0ed08/files/Cuestionario.pdf">
+    <strong>Respuestas del cuestionario </strong>
+  </a>
+</p>
 # Base de Datos
 
 Este repositorio contiene la lógica de base de datos optimizada para el manejo de registros académicos y facturación. A continuación, se detallan las estrategias de optimización e integridad implementadas.
