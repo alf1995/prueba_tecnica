@@ -1,5 +1,5 @@
 # Cuestionario
-<p align="center">
+<p align="left">
   <a href="https://github.com/alf1995/prueba_tecnica/blob/fd0e0305eef58edfa256a9c4f51f4b92c7c0ed08/files/Cuestionario.pdf" target="_blank">
     <strong>Respuestas del cuestionario </strong>
   </a>
@@ -34,7 +34,7 @@ Este repositorio contiene la lógica de base de datos optimizada para el manejo 
 --
 -- Reporte histórico de promedios anuales de 2023 y 2024
 --
-
+```sql
 SELECT * FROM (
     SELECT student_id, classroom_id, annual_average, '2023' as period FROM student_annual_grades
     UNION ALL
@@ -42,14 +42,17 @@ SELECT * FROM (
 ) AS historico
 WHERE student_id IN (SELECT id FROM students WHERE section_id = 1)
 AND annual_average > (SELECT AVG(annual_average) FROM student_annual_grades);
-
+```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alf1995/prueba_tecnica/refs/heads/main/files/explain_original.png" width="600" title="Imagen de Proyecto">
+</p>
 --
 -- Query Mejorado de reporte historico
--- Se elimina el UNION ALL
--- Usamos CROSS JOIN para precalcular los datos una vez y se reutilice
--- Se aplica filtro por año desde el inicio para reducir los datos a procesar
+-- Eliminación de UNION ALL
+-- Reducción de escaneo completo
+-- Cálculo de promedio global una sola vez con el CROSS JOIN
 --
-
+```sql
 SELECT sag.student_id,
        sag.classroom_id,
        sag.annual_average,
@@ -64,6 +67,10 @@ CROSS JOIN (
 WHERE sag.year IN (2023, 2024)
 AND s.section_id = 1
 AND sag.annual_average > avg_table.global_avg;
+```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alf1995/prueba_tecnica/refs/heads/main/files/explain_mejorado.png" width="600" title="Imagen de Proyecto">
+</p>
 
 ## Proyecto
 <p align="center">
